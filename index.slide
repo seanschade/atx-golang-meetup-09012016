@@ -1,0 +1,96 @@
+Moving from Scala to Golang
+rm -rf /scala
+18:30 1 Sep 2016
+Tags: Go, Scala
+
+Sean Schade
+Platform Architect, DrillingInfo
+sean.schade@drillinginfo.com
+https://medium.com/@seanschade/
+@seanschade
+
+* About Me
+
+- 20 Years of Software Development
+- Former Dell and eBay
+- Writing Go for Less Than 1 Year 
+- Wrote Scala for Less Than 1 Year
+- Specialize in APIs and Distributed Systems
+- Help Organizations Make Technology Decisions
+
+* Technology Decisions 
+
+Expectations
+
+- Your boss doesn't care if you are happy.
+- Your boss doesn't care if technology X is fun.
+- Your boss doesn't care if technology X makes your life easier.
+
+Concerns
+
+- What will this cost me?
+- If this is the wrong decision will I get fired?
+- Will this help me achieve my goals?
+
+* Who Are the Deciders?
+
+.image TheDecider.jpg _ 800
+
+* Appeal to Authority
+
+.image CompaniesUsingGo.jpg _ 800
+
+* Our Favorite Tools are Built With Go 
+
+.image Docker.png _ 200
+.image consul.png _ 300
+.image couchbase.png _ 200
+
+* Scala at DrillingInfo
+
+- Microservice Architecture
+- Hybrid Cloud AWS/DI 
+- Mostly Play Framework
+- Some Spray.io Services (experiment)
+- Scala is Concise 
+- Functional Programming
+
+* Scala Versus Go 
+
+.image ScalaVsGo.png _ 600
+
+* Go Versus Scala at DrillingInfo 
+
+.image GoVsScala.png _ 800
+
+* Docker at DrillingInfo
+
+Size Matters 
+
+- Push to Docker Hub
+- Pull from Docker Hub 
+
+AWS Costs Reduced Significantly
+
+- c3.2xlarge	8vCPU	15GiB	2 x 80 GB SSD
+- 10X Go Services Per Docker Host Compared to Scala
+- Less Memory
+
+* Start Small
+
+- cli to migrate Couchbase documents
+- Low Risk
+- Demonstrates Value
+.image CodeWinsArguments.jpg _ 200
+
+* Hearts and Minds
+
+.image heartsminds.jpg
+
+* How To Get Your Team On Board
+
+.image easy.jpeg _ 200
+- Creating a New Service Requires Boilerplate
+- Use text/template to create a service generator
+- Hours or tedious typing eliminated
+- Demo?
